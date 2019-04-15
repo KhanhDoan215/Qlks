@@ -130,11 +130,12 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label3.Location = new System.Drawing.Point(95, 15);
+            this.label3.Location = new System.Drawing.Point(95, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(105, 17);
             this.label3.TabIndex = 0;
             this.label3.Text = "Đổi Mật Khẩu";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // bt_luu
             // 
@@ -179,7 +180,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.bt_dong;
-            this.ClientSize = new System.Drawing.Size(299, 271);
+            this.ClientSize = new System.Drawing.Size(299, 272);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.bt_dong);
             this.Controls.Add(this.bt_luu);

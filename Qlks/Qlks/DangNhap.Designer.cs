@@ -50,6 +50,7 @@
             this.label1.Size = new System.Drawing.Size(329, 35);
             this.label1.TabIndex = 0;
             this.label1.Text = "Đăng Nhập Hệ Thống";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // bt_thoat
             // 

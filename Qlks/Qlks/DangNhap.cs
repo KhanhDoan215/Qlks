@@ -34,8 +34,10 @@ namespace Qlks
 
         private void bt_dn_Click(object sender, EventArgs e)
         {
+            
             dt.Clear();
             dt = cl.dangnhap(txt_tk.Text, txt_mk.Text);
+
             if (!string.IsNullOrEmpty(txt_tk.Text))
             {
                 if (!string.IsNullOrEmpty(txt_mk.Text))
@@ -54,7 +56,9 @@ namespace Qlks
 
                     else
                     {
-                        MessageBox.Show("Sai Tài Khoản Hoặc Mật khẩu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        string kt = Checkkiemtradangnhap.ktdangnhap(txt_tk.Text, txt_mk.Text);
+                        if (kt == "1")
+                        { MessageBox.Show("Sai Tài Khoản Hoặc Mật khẩu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error); }
                         txt_tk.Text = "";
                         txt_mk.Text = "";
                         txt_tk.Focus();
@@ -62,15 +66,24 @@ namespace Qlks
                 }
                 else
                 {
-                    MessageBox.Show("Nhập Mật khẩu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    string kt = Checkkiemtradangnhap.ktdangnhap(txt_tk.Text, txt_mk.Text);
+                    if (kt == "2")
+                    { MessageBox.Show("Nhập Mật khẩu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error); }
                     txt_mk.Focus();
                 }
             }
             else
             {
-                MessageBox.Show("Nhập Tài Khoản", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                string kt = Checkkiemtradangnhap.ktdangnhap(txt_tk.Text, txt_mk.Text);
+                if (kt == "2")
+                { MessageBox.Show("Nhập Tài Khoản", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error); }
                 txt_tk.Focus();
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

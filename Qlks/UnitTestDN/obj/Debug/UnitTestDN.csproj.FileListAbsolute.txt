@@ -1,0 +1,14 @@
+C:\Users\Khanhdoan\Downloads\Kd\Qlks\UnitTestDN\obj\Debug\UnitTestDN.csprojResolveAssemblyReference.cache
+C:\Users\Khanhdoan\Downloads\Kd\Qlks\UnitTestDN\bin\Debug\UnitTestDN.dll
+C:\Users\Khanhdoan\Downloads\Kd\Qlks\UnitTestDN\bin\Debug\UnitTestDN.pdb
+C:\Users\Khanhdoan\Downloads\Kd\Qlks\UnitTestDN\bin\Debug\Qlks.exe
+C:\Users\Khanhdoan\Downloads\Kd\Qlks\UnitTestDN\bin\Debug\Qlks.pdb
+C:\Users\Khanhdoan\Downloads\Kd\Qlks\UnitTestDN\obj\Debug\UnitTestDN.dll
+C:\Users\Khanhdoan\Downloads\Kd\Qlks\UnitTestDN\obj\Debug\UnitTestDN.pdb
+C:\Users\Khanhdoan\Desktop\Qlks\Qlks\UnitTestDN\bin\Debug\UnitTestDN.dll
+C:\Users\Khanhdoan\Desktop\Qlks\Qlks\UnitTestDN\bin\Debug\UnitTestDN.pdb
+C:\Users\Khanhdoan\Desktop\Qlks\Qlks\UnitTestDN\bin\Debug\Qlks.exe
+C:\Users\Khanhdoan\Desktop\Qlks\Qlks\UnitTestDN\bin\Debug\Qlks.pdb
+C:\Users\Khanhdoan\Desktop\Qlks\Qlks\UnitTestDN\obj\Debug\UnitTestDN.csprojResolveAssemblyReference.cache
+C:\Users\Khanhdoan\Desktop\Qlks\Qlks\UnitTestDN\obj\Debug\UnitTestDN.dll
+C:\Users\Khanhdoan\Desktop\Qlks\Qlks\UnitTestDN\obj\Debug\UnitTestDN.pdb

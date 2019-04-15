@@ -93,14 +93,20 @@ namespace Qlks
 
         private void bt_tinhtien_Click(object sender, EventArgs e)
         {
-            if (lb_tongtien.Text == "0")
+            string kt = Check_Tinhtien.kt_tongtien(lb_tongtien.Text);
+            if (kt == "0")
             {
+                if (lb_tongtien.Text == "0")
+       
                 MessageBox.Show("Lỗi", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
-                dt = cl.luuthongtinphong(maphong, lb_ten.Text, Convert.ToInt32(lb_namsinh.Text), Convert.ToInt32(lb_socm.Text), lb_ngaydp.Text, lb_ngaytp.Text, Convert.ToInt32(lb_tienphong.Text), Convert.ToInt32(lb_chiphi.Text), Convert.ToInt32(lb_tongtien.Text),nv);
-                MessageBox.Show("Đã Lưu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+               
+              
+                    dt = cl.luuthongtinphong(maphong, lb_ten.Text, Convert.ToInt32(lb_namsinh.Text), Convert.ToInt32(lb_socm.Text), lb_ngaydp.Text, lb_ngaytp.Text, Convert.ToInt32(lb_tienphong.Text), Convert.ToInt32(lb_chiphi.Text), Convert.ToInt32(lb_tongtien.Text), nv);
+                    MessageBox.Show("Đã Lưu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                
                 /*lb_tongtien.Text = "0";
                 lb_tienphong.Text = "0";
                 lb_chiphi.Text = "0";*/

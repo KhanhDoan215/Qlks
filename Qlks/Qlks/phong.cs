@@ -18,7 +18,6 @@ namespace Qlks
         {
             InitializeComponent();
         }
-        
         public static int maphong;
         CauLenh cl = new CauLenh();
         DataTable dt = new DataTable() ;
@@ -107,6 +106,8 @@ namespace Qlks
             }
             else
             {
+               
+
                 if(!string.IsNullOrEmpty(txt_ten.Text))
                 {
                     if (!string.IsNullOrEmpty(txt_namsinh.Text))
@@ -131,25 +132,42 @@ namespace Qlks
                             }
                             else
                             {
-                                MessageBox.Show("Nhập Số Người Đặt Phòng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                                txt_songuoidp.Focus();
+                                string kt = Check_Update.kt_suaphong(txt_ten.Text, txt_namsinh.Text, txt_socm.Text, txt_songuoidp.Text);
+                                if (kt == "5")
+                                {
+
+                                    MessageBox.Show("Nhập Số Người Đặt Phòng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                }
+                                    txt_songuoidp.Focus();
+                                
                             }
                         }
                         else
-	                    {
+	                    {   string kt = Check_Update.kt_suaphong(txt_ten.Text, txt_namsinh.Text, txt_socm.Text, txt_songuoidp.Text);
+                        if (kt == "4")
+                        {
                             MessageBox.Show("Nhập Số Chứng Minh", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
                             txt_socm.Focus();
                         }
                     }
                     else
-	                {
-                        MessageBox.Show("Nhập Năm Sinh", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+	                { 
+                        string kt = Check_Update.kt_suaphong(txt_ten.Text, txt_namsinh.Text, txt_socm.Text, txt_songuoidp.Text);
+                        if (kt == "3")
+                        {
+                            MessageBox.Show("Nhập Năm Sinh", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
                         txt_namsinh.Focus();
 	                }
                 }
                 else
                 {
-                    MessageBox.Show("Nhập Tên", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    string kt = Check_Update.kt_suaphong(txt_ten.Text, txt_namsinh.Text, txt_socm.Text, txt_songuoidp.Text);
+                    if (kt == "2")
+                    {
+                        MessageBox.Show("Nhập Tên", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
                     txt_ten.Focus();
                 }
 
@@ -199,6 +217,11 @@ namespace Qlks
         {
             bt_capnhat.Enabled = false;
             bt_tinhtien.Enabled = false;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
 
      

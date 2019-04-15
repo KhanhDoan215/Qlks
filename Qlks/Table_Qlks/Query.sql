@@ -589,6 +589,14 @@ Create Proc [dbo].[txp]
 as
 	select * from SuaPhong where Maphong = @ma
 -----
+go
+IF (OBJECT_ID(N'tinhtrang ', 'p') IS NOT NULL)
+DROP PROC tinhtrang
+GO
+Create Proc [dbo].[tinhtrang]
 
-
+@ma int
+as
+	
+	select * from SuaPhong where Maphong = @ma
 

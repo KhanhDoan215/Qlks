@@ -55,13 +55,18 @@ namespace Qlks
                 }
                 else
                 {
-                    MessageBox.Show("Nhập Giá Phòng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                      string kt = Check_SuaTTP.kt_TTPhong(txt_mp.Text, txt_giaphong.Text);
+                     if (kt == "2")
+                    { MessageBox.Show("Nhập Giá Phòng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
                     txt_giaphong.Focus();
                 }
             }
             else
             {
-                MessageBox.Show("Nhập Mã Phòng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    string kt =  Check_SuaTTP.kt_TTPhong(txt_mp.Text, txt_giaphong.Text);
+                     if (kt == "1")
+                { 
+                    MessageBox.Show("Nhập Mã Phòng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
                 txt_mp.Focus();
             }
         }
@@ -69,6 +74,11 @@ namespace Qlks
         private void bt_huy_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

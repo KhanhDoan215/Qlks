@@ -125,5 +125,10 @@ namespace Qlks
                 load();
             }
         }
+
+        private void dg_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

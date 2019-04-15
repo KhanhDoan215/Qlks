@@ -75,6 +75,11 @@ namespace Qlks
             bt_xoa.Enabled = false;
         }
 
+        private void dg_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
        
 
         

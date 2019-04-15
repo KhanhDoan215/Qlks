@@ -46,6 +46,7 @@ namespace Qlks
                             dt = cl.doimatkhau(lb_tk.Text, txt_mkc.Text, txt_mkm.Text);
                             if (dt.Rows[0]["errcode"].ToString() == "0")
                             {
+
                                 MessageBox.Show("Đã Lưu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                                 this.Close();
                                
@@ -59,23 +60,32 @@ namespace Qlks
                         }
                         else
                         {
-                            MessageBox.Show("Mật khẩu nhập lại không chính xác", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            string kt = checkChangePassword.check_changepassword(txt_mkc.Text, txt_mkm.Text, txt_nl.Text);
+                            if (kt == "Mật khẩu cũ sai")
+                            { MessageBox.Show("Mật khẩu nhập lại không chính xác", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
+                            
                         }
                     }
                     else
                     {
-                        MessageBox.Show("Xác nhận mật khẩu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        string kt = checkChangePassword.check_changepassword(txt_mkc.Text, txt_mkm.Text, txt_nl.Text);
+                        if (kt == "Xác nhận lại mật khẩu")
+                        { MessageBox.Show("Xác nhận mật khẩu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
                         txt_nl.Focus();
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Nhập mật khẩu mới", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    string kt = checkChangePassword.check_changepassword(txt_mkc.Text, txt_mkm.Text, txt_nl.Text);
+                    if (kt == "Nhập lại mật khẩu")
+                    { MessageBox.Show("Nhập mật khẩu mới", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
                     txt_mkm.Focus();
                 }
             }
             else
             {
+                string kt = checkChangePassword.check_changepassword(txt_mkc.Text, txt_mkm.Text, txt_nl.Text);
+                if (kt == "Mật khẩu cũ sai")
                 MessageBox.Show("Nhập mật khẩu cũ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txt_mkc.Focus();
             }
@@ -87,6 +97,11 @@ namespace Qlks
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

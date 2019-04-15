@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(qlks));
-            this.lbl_ten = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.hệThốngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngNhậpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -71,13 +70,6 @@
             this.lb_102 = new System.Windows.Forms.Label();
             this.lb_101 = new System.Windows.Forms.Label();
             this.lb_103 = new System.Windows.Forms.Label();
-            this.lb_105 = new System.Windows.Forms.Label();
-            this.lb_104 = new System.Windows.Forms.Label();
-            this.lb_106 = new System.Windows.Forms.Label();
-            this.lb_108 = new System.Windows.Forms.Label();
-            this.lb_107 = new System.Windows.Forms.Label();
-            this.lb_109 = new System.Windows.Forms.Label();
-            this.lb_110 = new System.Windows.Forms.Label();
             this.bt_201 = new System.Windows.Forms.Button();
             this.bt_202 = new System.Windows.Forms.Button();
             this.bt_203 = new System.Windows.Forms.Button();
@@ -91,13 +83,6 @@
             this.lb_202 = new System.Windows.Forms.Label();
             this.lb_201 = new System.Windows.Forms.Label();
             this.lb_203 = new System.Windows.Forms.Label();
-            this.lb_205 = new System.Windows.Forms.Label();
-            this.lb_204 = new System.Windows.Forms.Label();
-            this.lb_206 = new System.Windows.Forms.Label();
-            this.lb_208 = new System.Windows.Forms.Label();
-            this.lb_207 = new System.Windows.Forms.Label();
-            this.lb_209 = new System.Windows.Forms.Label();
-            this.lb_210 = new System.Windows.Forms.Label();
             this.bt_301 = new System.Windows.Forms.Button();
             this.bt_302 = new System.Windows.Forms.Button();
             this.bt_303 = new System.Windows.Forms.Button();
@@ -111,69 +96,32 @@
             this.lb_302 = new System.Windows.Forms.Label();
             this.lb_301 = new System.Windows.Forms.Label();
             this.lb_303 = new System.Windows.Forms.Label();
-            this.lb_305 = new System.Windows.Forms.Label();
-            this.lb_304 = new System.Windows.Forms.Label();
-            this.lb_306 = new System.Windows.Forms.Label();
-            this.lb_308 = new System.Windows.Forms.Label();
-            this.lb_307 = new System.Windows.Forms.Label();
-            this.lb_309 = new System.Windows.Forms.Label();
-            this.lb_310 = new System.Windows.Forms.Label();
-            this.bt_401 = new System.Windows.Forms.Button();
-            this.bt_402 = new System.Windows.Forms.Button();
-            this.bt_403 = new System.Windows.Forms.Button();
-            this.bt_404 = new System.Windows.Forms.Button();
-            this.bt_405 = new System.Windows.Forms.Button();
-            this.bt_406 = new System.Windows.Forms.Button();
-            this.bt_408 = new System.Windows.Forms.Button();
-            this.bt_409 = new System.Windows.Forms.Button();
-            this.bt_410 = new System.Windows.Forms.Button();
-            this.bt_407 = new System.Windows.Forms.Button();
-            this.lb_402 = new System.Windows.Forms.Label();
-            this.lb_401 = new System.Windows.Forms.Label();
-            this.lb_403 = new System.Windows.Forms.Label();
-            this.lb_405 = new System.Windows.Forms.Label();
-            this.lb_404 = new System.Windows.Forms.Label();
-            this.lb_406 = new System.Windows.Forms.Label();
-            this.lb_408 = new System.Windows.Forms.Label();
-            this.lb_407 = new System.Windows.Forms.Label();
-            this.lb_409 = new System.Windows.Forms.Label();
-            this.lb_410 = new System.Windows.Forms.Label();
-            this.bt_501 = new System.Windows.Forms.Button();
-            this.bt_502 = new System.Windows.Forms.Button();
-            this.bt_503 = new System.Windows.Forms.Button();
-            this.bt_504 = new System.Windows.Forms.Button();
-            this.bt_505 = new System.Windows.Forms.Button();
-            this.bt_506 = new System.Windows.Forms.Button();
-            this.bt_508 = new System.Windows.Forms.Button();
-            this.bt_509 = new System.Windows.Forms.Button();
-            this.bt_510 = new System.Windows.Forms.Button();
-            this.bt_507 = new System.Windows.Forms.Button();
-            this.lb_502 = new System.Windows.Forms.Label();
-            this.lb_501 = new System.Windows.Forms.Label();
-            this.lb_503 = new System.Windows.Forms.Label();
-            this.lb_505 = new System.Windows.Forms.Label();
-            this.lb_504 = new System.Windows.Forms.Label();
-            this.lb_506 = new System.Windows.Forms.Label();
-            this.lb_508 = new System.Windows.Forms.Label();
-            this.lb_507 = new System.Windows.Forms.Label();
-            this.lb_509 = new System.Windows.Forms.Label();
-            this.lb_510 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
             this.pt_hinh = new System.Windows.Forms.PictureBox();
+            this.lb_105 = new System.Windows.Forms.Label();
+            this.lb_205 = new System.Windows.Forms.Label();
+            this.lb_305 = new System.Windows.Forms.Label();
+            this.lb_104 = new System.Windows.Forms.Label();
+            this.lb_204 = new System.Windows.Forms.Label();
+            this.lb_304 = new System.Windows.Forms.Label();
+            this.lb_106 = new System.Windows.Forms.Label();
+            this.lb_206 = new System.Windows.Forms.Label();
+            this.lb_306 = new System.Windows.Forms.Label();
+            this.lb_108 = new System.Windows.Forms.Label();
+            this.lb_208 = new System.Windows.Forms.Label();
+            this.lb_308 = new System.Windows.Forms.Label();
+            this.lb_107 = new System.Windows.Forms.Label();
+            this.lb_207 = new System.Windows.Forms.Label();
+            this.lb_307 = new System.Windows.Forms.Label();
+            this.lb_109 = new System.Windows.Forms.Label();
+            this.lb_209 = new System.Windows.Forms.Label();
+            this.lb_309 = new System.Windows.Forms.Label();
+            this.lb_110 = new System.Windows.Forms.Label();
+            this.lb_210 = new System.Windows.Forms.Label();
+            this.lb_310 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pt_hinh)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lbl_ten
-            // 
-            this.lbl_ten.AutoSize = true;
-            this.lbl_ten.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_ten.Location = new System.Drawing.Point(12, 624);
-            this.lbl_ten.Name = "lbl_ten";
-            this.lbl_ten.Size = new System.Drawing.Size(30, 17);
-            this.lbl_ten.TabIndex = 0;
-            this.lbl_ten.Text = "null";
-            this.lbl_ten.Click += new System.EventHandler(this.lbl_ten_Click);
             // 
             // menuStrip1
             // 
@@ -538,69 +486,6 @@
             this.lb_103.TabIndex = 5;
             this.lb_103.Text = "103";
             // 
-            // lb_105
-            // 
-            this.lb_105.AutoSize = true;
-            this.lb_105.Location = new System.Drawing.Point(431, 199);
-            this.lb_105.Name = "lb_105";
-            this.lb_105.Size = new System.Drawing.Size(25, 13);
-            this.lb_105.TabIndex = 5;
-            this.lb_105.Text = "105";
-            // 
-            // lb_104
-            // 
-            this.lb_104.AutoSize = true;
-            this.lb_104.Location = new System.Drawing.Point(347, 199);
-            this.lb_104.Name = "lb_104";
-            this.lb_104.Size = new System.Drawing.Size(25, 13);
-            this.lb_104.TabIndex = 5;
-            this.lb_104.Text = "104";
-            // 
-            // lb_106
-            // 
-            this.lb_106.AutoSize = true;
-            this.lb_106.Location = new System.Drawing.Point(519, 199);
-            this.lb_106.Name = "lb_106";
-            this.lb_106.Size = new System.Drawing.Size(25, 13);
-            this.lb_106.TabIndex = 5;
-            this.lb_106.Text = "106";
-            // 
-            // lb_108
-            // 
-            this.lb_108.AutoSize = true;
-            this.lb_108.Location = new System.Drawing.Point(689, 199);
-            this.lb_108.Name = "lb_108";
-            this.lb_108.Size = new System.Drawing.Size(25, 13);
-            this.lb_108.TabIndex = 5;
-            this.lb_108.Text = "108";
-            // 
-            // lb_107
-            // 
-            this.lb_107.AutoSize = true;
-            this.lb_107.Location = new System.Drawing.Point(606, 199);
-            this.lb_107.Name = "lb_107";
-            this.lb_107.Size = new System.Drawing.Size(25, 13);
-            this.lb_107.TabIndex = 5;
-            this.lb_107.Text = "107";
-            // 
-            // lb_109
-            // 
-            this.lb_109.AutoSize = true;
-            this.lb_109.Location = new System.Drawing.Point(778, 199);
-            this.lb_109.Name = "lb_109";
-            this.lb_109.Size = new System.Drawing.Size(25, 13);
-            this.lb_109.TabIndex = 5;
-            this.lb_109.Text = "109";
-            // 
-            // lb_110
-            // 
-            this.lb_110.AutoSize = true;
-            this.lb_110.Location = new System.Drawing.Point(862, 199);
-            this.lb_110.Name = "lb_110";
-            this.lb_110.Size = new System.Drawing.Size(25, 13);
-            this.lb_110.TabIndex = 5;
-            this.lb_110.Text = "110";
-            // 
             // bt_201
             // 
             this.bt_201.Location = new System.Drawing.Point(61, 215);
@@ -717,69 +602,6 @@
             this.lb_203.Size = new System.Drawing.Size(25, 13);
             this.lb_203.TabIndex = 5;
             this.lb_203.Text = "203";
-            // 
-            // lb_205
-            // 
-            this.lb_205.AutoSize = true;
-            this.lb_205.Location = new System.Drawing.Point(431, 298);
-            this.lb_205.Name = "lb_205";
-            this.lb_205.Size = new System.Drawing.Size(25, 13);
-            this.lb_205.TabIndex = 5;
-            this.lb_205.Text = "205";
-            // 
-            // lb_204
-            // 
-            this.lb_204.AutoSize = true;
-            this.lb_204.Location = new System.Drawing.Point(347, 298);
-            this.lb_204.Name = "lb_204";
-            this.lb_204.Size = new System.Drawing.Size(25, 13);
-            this.lb_204.TabIndex = 5;
-            this.lb_204.Text = "204";
-            // 
-            // lb_206
-            // 
-            this.lb_206.AutoSize = true;
-            this.lb_206.Location = new System.Drawing.Point(519, 298);
-            this.lb_206.Name = "lb_206";
-            this.lb_206.Size = new System.Drawing.Size(25, 13);
-            this.lb_206.TabIndex = 5;
-            this.lb_206.Text = "206";
-            // 
-            // lb_208
-            // 
-            this.lb_208.AutoSize = true;
-            this.lb_208.Location = new System.Drawing.Point(689, 298);
-            this.lb_208.Name = "lb_208";
-            this.lb_208.Size = new System.Drawing.Size(25, 13);
-            this.lb_208.TabIndex = 5;
-            this.lb_208.Text = "208";
-            // 
-            // lb_207
-            // 
-            this.lb_207.AutoSize = true;
-            this.lb_207.Location = new System.Drawing.Point(606, 298);
-            this.lb_207.Name = "lb_207";
-            this.lb_207.Size = new System.Drawing.Size(25, 13);
-            this.lb_207.TabIndex = 5;
-            this.lb_207.Text = "207";
-            // 
-            // lb_209
-            // 
-            this.lb_209.AutoSize = true;
-            this.lb_209.Location = new System.Drawing.Point(778, 298);
-            this.lb_209.Name = "lb_209";
-            this.lb_209.Size = new System.Drawing.Size(25, 13);
-            this.lb_209.TabIndex = 5;
-            this.lb_209.Text = "209";
-            // 
-            // lb_210
-            // 
-            this.lb_210.AutoSize = true;
-            this.lb_210.Location = new System.Drawing.Point(862, 298);
-            this.lb_210.Name = "lb_210";
-            this.lb_210.Size = new System.Drawing.Size(25, 13);
-            this.lb_210.TabIndex = 5;
-            this.lb_210.Text = "210";
             // 
             // bt_301
             // 
@@ -898,6 +720,33 @@
             this.lb_303.TabIndex = 5;
             this.lb_303.Text = "303";
             // 
+            // pt_hinh
+            // 
+            this.pt_hinh.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pt_hinh.Location = new System.Drawing.Point(0, 54);
+            this.pt_hinh.Name = "pt_hinh";
+            this.pt_hinh.Size = new System.Drawing.Size(985, 396);
+            this.pt_hinh.TabIndex = 7;
+            this.pt_hinh.TabStop = false;
+            // 
+            // lb_105
+            // 
+            this.lb_105.AutoSize = true;
+            this.lb_105.Location = new System.Drawing.Point(431, 199);
+            this.lb_105.Name = "lb_105";
+            this.lb_105.Size = new System.Drawing.Size(25, 13);
+            this.lb_105.TabIndex = 5;
+            this.lb_105.Text = "105";
+            // 
+            // lb_205
+            // 
+            this.lb_205.AutoSize = true;
+            this.lb_205.Location = new System.Drawing.Point(431, 298);
+            this.lb_205.Name = "lb_205";
+            this.lb_205.Size = new System.Drawing.Size(25, 13);
+            this.lb_205.TabIndex = 5;
+            this.lb_205.Text = "205";
+            // 
             // lb_305
             // 
             this.lb_305.AutoSize = true;
@@ -906,6 +755,24 @@
             this.lb_305.Size = new System.Drawing.Size(25, 13);
             this.lb_305.TabIndex = 5;
             this.lb_305.Text = "305";
+            // 
+            // lb_104
+            // 
+            this.lb_104.AutoSize = true;
+            this.lb_104.Location = new System.Drawing.Point(347, 199);
+            this.lb_104.Name = "lb_104";
+            this.lb_104.Size = new System.Drawing.Size(25, 13);
+            this.lb_104.TabIndex = 5;
+            this.lb_104.Text = "104";
+            // 
+            // lb_204
+            // 
+            this.lb_204.AutoSize = true;
+            this.lb_204.Location = new System.Drawing.Point(347, 298);
+            this.lb_204.Name = "lb_204";
+            this.lb_204.Size = new System.Drawing.Size(25, 13);
+            this.lb_204.TabIndex = 5;
+            this.lb_204.Text = "204";
             // 
             // lb_304
             // 
@@ -916,6 +783,24 @@
             this.lb_304.TabIndex = 5;
             this.lb_304.Text = "304";
             // 
+            // lb_106
+            // 
+            this.lb_106.AutoSize = true;
+            this.lb_106.Location = new System.Drawing.Point(519, 199);
+            this.lb_106.Name = "lb_106";
+            this.lb_106.Size = new System.Drawing.Size(25, 13);
+            this.lb_106.TabIndex = 5;
+            this.lb_106.Text = "106";
+            // 
+            // lb_206
+            // 
+            this.lb_206.AutoSize = true;
+            this.lb_206.Location = new System.Drawing.Point(519, 298);
+            this.lb_206.Name = "lb_206";
+            this.lb_206.Size = new System.Drawing.Size(25, 13);
+            this.lb_206.TabIndex = 5;
+            this.lb_206.Text = "206";
+            // 
             // lb_306
             // 
             this.lb_306.AutoSize = true;
@@ -924,6 +809,24 @@
             this.lb_306.Size = new System.Drawing.Size(25, 13);
             this.lb_306.TabIndex = 5;
             this.lb_306.Text = "306";
+            // 
+            // lb_108
+            // 
+            this.lb_108.AutoSize = true;
+            this.lb_108.Location = new System.Drawing.Point(689, 199);
+            this.lb_108.Name = "lb_108";
+            this.lb_108.Size = new System.Drawing.Size(25, 13);
+            this.lb_108.TabIndex = 5;
+            this.lb_108.Text = "108";
+            // 
+            // lb_208
+            // 
+            this.lb_208.AutoSize = true;
+            this.lb_208.Location = new System.Drawing.Point(689, 298);
+            this.lb_208.Name = "lb_208";
+            this.lb_208.Size = new System.Drawing.Size(25, 13);
+            this.lb_208.TabIndex = 5;
+            this.lb_208.Text = "208";
             // 
             // lb_308
             // 
@@ -934,6 +837,24 @@
             this.lb_308.TabIndex = 5;
             this.lb_308.Text = "308";
             // 
+            // lb_107
+            // 
+            this.lb_107.AutoSize = true;
+            this.lb_107.Location = new System.Drawing.Point(606, 199);
+            this.lb_107.Name = "lb_107";
+            this.lb_107.Size = new System.Drawing.Size(25, 13);
+            this.lb_107.TabIndex = 5;
+            this.lb_107.Text = "107";
+            // 
+            // lb_207
+            // 
+            this.lb_207.AutoSize = true;
+            this.lb_207.Location = new System.Drawing.Point(606, 298);
+            this.lb_207.Name = "lb_207";
+            this.lb_207.Size = new System.Drawing.Size(25, 13);
+            this.lb_207.TabIndex = 5;
+            this.lb_207.Text = "207";
+            // 
             // lb_307
             // 
             this.lb_307.AutoSize = true;
@@ -942,6 +863,24 @@
             this.lb_307.Size = new System.Drawing.Size(25, 13);
             this.lb_307.TabIndex = 5;
             this.lb_307.Text = "307";
+            // 
+            // lb_109
+            // 
+            this.lb_109.AutoSize = true;
+            this.lb_109.Location = new System.Drawing.Point(778, 199);
+            this.lb_109.Name = "lb_109";
+            this.lb_109.Size = new System.Drawing.Size(25, 13);
+            this.lb_109.TabIndex = 5;
+            this.lb_109.Text = "109";
+            // 
+            // lb_209
+            // 
+            this.lb_209.AutoSize = true;
+            this.lb_209.Location = new System.Drawing.Point(778, 298);
+            this.lb_209.Name = "lb_209";
+            this.lb_209.Size = new System.Drawing.Size(25, 13);
+            this.lb_209.TabIndex = 5;
+            this.lb_209.Text = "209";
             // 
             // lb_309
             // 
@@ -952,6 +891,24 @@
             this.lb_309.TabIndex = 5;
             this.lb_309.Text = "309";
             // 
+            // lb_110
+            // 
+            this.lb_110.AutoSize = true;
+            this.lb_110.Location = new System.Drawing.Point(862, 199);
+            this.lb_110.Name = "lb_110";
+            this.lb_110.Size = new System.Drawing.Size(25, 13);
+            this.lb_110.TabIndex = 5;
+            this.lb_110.Text = "110";
+            // 
+            // lb_210
+            // 
+            this.lb_210.AutoSize = true;
+            this.lb_210.Location = new System.Drawing.Point(862, 298);
+            this.lb_210.Name = "lb_210";
+            this.lb_210.Size = new System.Drawing.Size(25, 13);
+            this.lb_210.TabIndex = 5;
+            this.lb_210.Text = "210";
+            // 
             // lb_310
             // 
             this.lb_310.AutoSize = true;
@@ -961,496 +918,87 @@
             this.lb_310.TabIndex = 5;
             this.lb_310.Text = "310";
             // 
-            // bt_401
-            // 
-            this.bt_401.Location = new System.Drawing.Point(61, 413);
-            this.bt_401.Name = "bt_401";
-            this.bt_401.Size = new System.Drawing.Size(80, 80);
-            this.bt_401.TabIndex = 4;
-            this.bt_401.UseVisualStyleBackColor = true;
-            this.bt_401.Click += new System.EventHandler(this.bt_401_Click);
-            // 
-            // bt_402
-            // 
-            this.bt_402.Location = new System.Drawing.Point(147, 413);
-            this.bt_402.Name = "bt_402";
-            this.bt_402.Size = new System.Drawing.Size(80, 80);
-            this.bt_402.TabIndex = 4;
-            this.bt_402.UseVisualStyleBackColor = true;
-            this.bt_402.Click += new System.EventHandler(this.bt_402_Click);
-            // 
-            // bt_403
-            // 
-            this.bt_403.Location = new System.Drawing.Point(233, 413);
-            this.bt_403.Name = "bt_403";
-            this.bt_403.Size = new System.Drawing.Size(80, 80);
-            this.bt_403.TabIndex = 4;
-            this.bt_403.UseVisualStyleBackColor = true;
-            this.bt_403.Click += new System.EventHandler(this.bt_403_Click);
-            // 
-            // bt_404
-            // 
-            this.bt_404.Location = new System.Drawing.Point(319, 413);
-            this.bt_404.Name = "bt_404";
-            this.bt_404.Size = new System.Drawing.Size(80, 80);
-            this.bt_404.TabIndex = 4;
-            this.bt_404.UseVisualStyleBackColor = true;
-            this.bt_404.Click += new System.EventHandler(this.bt_404_Click);
-            // 
-            // bt_405
-            // 
-            this.bt_405.Location = new System.Drawing.Point(405, 413);
-            this.bt_405.Name = "bt_405";
-            this.bt_405.Size = new System.Drawing.Size(80, 80);
-            this.bt_405.TabIndex = 4;
-            this.bt_405.UseVisualStyleBackColor = true;
-            this.bt_405.Click += new System.EventHandler(this.bt_405_Click);
-            // 
-            // bt_406
-            // 
-            this.bt_406.Location = new System.Drawing.Point(491, 413);
-            this.bt_406.Name = "bt_406";
-            this.bt_406.Size = new System.Drawing.Size(80, 80);
-            this.bt_406.TabIndex = 4;
-            this.bt_406.UseVisualStyleBackColor = true;
-            this.bt_406.Click += new System.EventHandler(this.bt_406_Click);
-            // 
-            // bt_408
-            // 
-            this.bt_408.Location = new System.Drawing.Point(663, 413);
-            this.bt_408.Name = "bt_408";
-            this.bt_408.Size = new System.Drawing.Size(80, 80);
-            this.bt_408.TabIndex = 4;
-            this.bt_408.UseVisualStyleBackColor = true;
-            this.bt_408.Click += new System.EventHandler(this.bt_408_Click);
-            // 
-            // bt_409
-            // 
-            this.bt_409.Location = new System.Drawing.Point(749, 413);
-            this.bt_409.Name = "bt_409";
-            this.bt_409.Size = new System.Drawing.Size(80, 80);
-            this.bt_409.TabIndex = 4;
-            this.bt_409.UseVisualStyleBackColor = true;
-            this.bt_409.Click += new System.EventHandler(this.bt_409_Click);
-            // 
-            // bt_410
-            // 
-            this.bt_410.Location = new System.Drawing.Point(835, 413);
-            this.bt_410.Name = "bt_410";
-            this.bt_410.Size = new System.Drawing.Size(80, 80);
-            this.bt_410.TabIndex = 4;
-            this.bt_410.UseVisualStyleBackColor = true;
-            this.bt_410.Click += new System.EventHandler(this.bt_410_Click);
-            // 
-            // bt_407
-            // 
-            this.bt_407.Location = new System.Drawing.Point(577, 413);
-            this.bt_407.Name = "bt_407";
-            this.bt_407.Size = new System.Drawing.Size(80, 80);
-            this.bt_407.TabIndex = 4;
-            this.bt_407.UseVisualStyleBackColor = true;
-            this.bt_407.Click += new System.EventHandler(this.bt_407_Click);
-            // 
-            // lb_402
-            // 
-            this.lb_402.AutoSize = true;
-            this.lb_402.Location = new System.Drawing.Point(172, 496);
-            this.lb_402.Name = "lb_402";
-            this.lb_402.Size = new System.Drawing.Size(25, 13);
-            this.lb_402.TabIndex = 5;
-            this.lb_402.Text = "402";
-            // 
-            // lb_401
-            // 
-            this.lb_401.AutoSize = true;
-            this.lb_401.Location = new System.Drawing.Point(86, 496);
-            this.lb_401.Name = "lb_401";
-            this.lb_401.Size = new System.Drawing.Size(25, 13);
-            this.lb_401.TabIndex = 5;
-            this.lb_401.Text = "401";
-            // 
-            // lb_403
-            // 
-            this.lb_403.AutoSize = true;
-            this.lb_403.Location = new System.Drawing.Point(260, 496);
-            this.lb_403.Name = "lb_403";
-            this.lb_403.Size = new System.Drawing.Size(25, 13);
-            this.lb_403.TabIndex = 5;
-            this.lb_403.Text = "403";
-            // 
-            // lb_405
-            // 
-            this.lb_405.AutoSize = true;
-            this.lb_405.Location = new System.Drawing.Point(431, 496);
-            this.lb_405.Name = "lb_405";
-            this.lb_405.Size = new System.Drawing.Size(25, 13);
-            this.lb_405.TabIndex = 5;
-            this.lb_405.Text = "405";
-            // 
-            // lb_404
-            // 
-            this.lb_404.AutoSize = true;
-            this.lb_404.Location = new System.Drawing.Point(347, 496);
-            this.lb_404.Name = "lb_404";
-            this.lb_404.Size = new System.Drawing.Size(25, 13);
-            this.lb_404.TabIndex = 5;
-            this.lb_404.Text = "404";
-            // 
-            // lb_406
-            // 
-            this.lb_406.AutoSize = true;
-            this.lb_406.Location = new System.Drawing.Point(519, 496);
-            this.lb_406.Name = "lb_406";
-            this.lb_406.Size = new System.Drawing.Size(25, 13);
-            this.lb_406.TabIndex = 5;
-            this.lb_406.Text = "406";
-            // 
-            // lb_408
-            // 
-            this.lb_408.AutoSize = true;
-            this.lb_408.Location = new System.Drawing.Point(689, 496);
-            this.lb_408.Name = "lb_408";
-            this.lb_408.Size = new System.Drawing.Size(25, 13);
-            this.lb_408.TabIndex = 5;
-            this.lb_408.Text = "408";
-            // 
-            // lb_407
-            // 
-            this.lb_407.AutoSize = true;
-            this.lb_407.Location = new System.Drawing.Point(606, 496);
-            this.lb_407.Name = "lb_407";
-            this.lb_407.Size = new System.Drawing.Size(25, 13);
-            this.lb_407.TabIndex = 5;
-            this.lb_407.Text = "407";
-            // 
-            // lb_409
-            // 
-            this.lb_409.AutoSize = true;
-            this.lb_409.Location = new System.Drawing.Point(778, 496);
-            this.lb_409.Name = "lb_409";
-            this.lb_409.Size = new System.Drawing.Size(25, 13);
-            this.lb_409.TabIndex = 5;
-            this.lb_409.Text = "409";
-            // 
-            // lb_410
-            // 
-            this.lb_410.AutoSize = true;
-            this.lb_410.Location = new System.Drawing.Point(862, 496);
-            this.lb_410.Name = "lb_410";
-            this.lb_410.Size = new System.Drawing.Size(25, 13);
-            this.lb_410.TabIndex = 5;
-            this.lb_410.Text = "410";
-            // 
-            // bt_501
-            // 
-            this.bt_501.Location = new System.Drawing.Point(61, 512);
-            this.bt_501.Name = "bt_501";
-            this.bt_501.Size = new System.Drawing.Size(80, 80);
-            this.bt_501.TabIndex = 4;
-            this.bt_501.UseVisualStyleBackColor = true;
-            this.bt_501.Click += new System.EventHandler(this.bt_501_Click);
-            // 
-            // bt_502
-            // 
-            this.bt_502.Location = new System.Drawing.Point(147, 512);
-            this.bt_502.Name = "bt_502";
-            this.bt_502.Size = new System.Drawing.Size(80, 80);
-            this.bt_502.TabIndex = 4;
-            this.bt_502.UseVisualStyleBackColor = true;
-            this.bt_502.Click += new System.EventHandler(this.bt_502_Click);
-            // 
-            // bt_503
-            // 
-            this.bt_503.Location = new System.Drawing.Point(233, 512);
-            this.bt_503.Name = "bt_503";
-            this.bt_503.Size = new System.Drawing.Size(80, 80);
-            this.bt_503.TabIndex = 4;
-            this.bt_503.UseVisualStyleBackColor = true;
-            this.bt_503.Click += new System.EventHandler(this.bt_503_Click);
-            // 
-            // bt_504
-            // 
-            this.bt_504.Location = new System.Drawing.Point(319, 512);
-            this.bt_504.Name = "bt_504";
-            this.bt_504.Size = new System.Drawing.Size(80, 80);
-            this.bt_504.TabIndex = 4;
-            this.bt_504.UseVisualStyleBackColor = true;
-            this.bt_504.Click += new System.EventHandler(this.bt_504_Click);
-            // 
-            // bt_505
-            // 
-            this.bt_505.Location = new System.Drawing.Point(405, 512);
-            this.bt_505.Name = "bt_505";
-            this.bt_505.Size = new System.Drawing.Size(80, 80);
-            this.bt_505.TabIndex = 4;
-            this.bt_505.UseVisualStyleBackColor = true;
-            this.bt_505.Click += new System.EventHandler(this.bt_505_Click);
-            // 
-            // bt_506
-            // 
-            this.bt_506.Location = new System.Drawing.Point(491, 512);
-            this.bt_506.Name = "bt_506";
-            this.bt_506.Size = new System.Drawing.Size(80, 80);
-            this.bt_506.TabIndex = 4;
-            this.bt_506.UseVisualStyleBackColor = true;
-            this.bt_506.Click += new System.EventHandler(this.bt_506_Click);
-            // 
-            // bt_508
-            // 
-            this.bt_508.Location = new System.Drawing.Point(663, 512);
-            this.bt_508.Name = "bt_508";
-            this.bt_508.Size = new System.Drawing.Size(80, 80);
-            this.bt_508.TabIndex = 4;
-            this.bt_508.UseVisualStyleBackColor = true;
-            this.bt_508.Click += new System.EventHandler(this.bt_508_Click);
-            // 
-            // bt_509
-            // 
-            this.bt_509.Location = new System.Drawing.Point(749, 512);
-            this.bt_509.Name = "bt_509";
-            this.bt_509.Size = new System.Drawing.Size(80, 80);
-            this.bt_509.TabIndex = 4;
-            this.bt_509.UseVisualStyleBackColor = true;
-            this.bt_509.Click += new System.EventHandler(this.bt_509_Click);
-            // 
-            // bt_510
-            // 
-            this.bt_510.Location = new System.Drawing.Point(835, 512);
-            this.bt_510.Name = "bt_510";
-            this.bt_510.Size = new System.Drawing.Size(80, 80);
-            this.bt_510.TabIndex = 4;
-            this.bt_510.UseVisualStyleBackColor = true;
-            this.bt_510.Click += new System.EventHandler(this.bt_510_Click);
-            // 
-            // bt_507
-            // 
-            this.bt_507.Location = new System.Drawing.Point(577, 512);
-            this.bt_507.Name = "bt_507";
-            this.bt_507.Size = new System.Drawing.Size(80, 80);
-            this.bt_507.TabIndex = 4;
-            this.bt_507.UseVisualStyleBackColor = true;
-            this.bt_507.Click += new System.EventHandler(this.bt_507_Click);
-            // 
-            // lb_502
-            // 
-            this.lb_502.AutoSize = true;
-            this.lb_502.Location = new System.Drawing.Point(172, 595);
-            this.lb_502.Name = "lb_502";
-            this.lb_502.Size = new System.Drawing.Size(25, 13);
-            this.lb_502.TabIndex = 5;
-            this.lb_502.Text = "502";
-            // 
-            // lb_501
-            // 
-            this.lb_501.AutoSize = true;
-            this.lb_501.Location = new System.Drawing.Point(86, 595);
-            this.lb_501.Name = "lb_501";
-            this.lb_501.Size = new System.Drawing.Size(25, 13);
-            this.lb_501.TabIndex = 5;
-            this.lb_501.Text = "501";
-            // 
-            // lb_503
-            // 
-            this.lb_503.AutoSize = true;
-            this.lb_503.Location = new System.Drawing.Point(260, 595);
-            this.lb_503.Name = "lb_503";
-            this.lb_503.Size = new System.Drawing.Size(25, 13);
-            this.lb_503.TabIndex = 5;
-            this.lb_503.Text = "503";
-            // 
-            // lb_505
-            // 
-            this.lb_505.AutoSize = true;
-            this.lb_505.Location = new System.Drawing.Point(431, 595);
-            this.lb_505.Name = "lb_505";
-            this.lb_505.Size = new System.Drawing.Size(25, 13);
-            this.lb_505.TabIndex = 5;
-            this.lb_505.Text = "505";
-            // 
-            // lb_504
-            // 
-            this.lb_504.AutoSize = true;
-            this.lb_504.Location = new System.Drawing.Point(347, 595);
-            this.lb_504.Name = "lb_504";
-            this.lb_504.Size = new System.Drawing.Size(25, 13);
-            this.lb_504.TabIndex = 5;
-            this.lb_504.Text = "504";
-            // 
-            // lb_506
-            // 
-            this.lb_506.AutoSize = true;
-            this.lb_506.Location = new System.Drawing.Point(519, 595);
-            this.lb_506.Name = "lb_506";
-            this.lb_506.Size = new System.Drawing.Size(25, 13);
-            this.lb_506.TabIndex = 5;
-            this.lb_506.Text = "506";
-            // 
-            // lb_508
-            // 
-            this.lb_508.AutoSize = true;
-            this.lb_508.Location = new System.Drawing.Point(689, 595);
-            this.lb_508.Name = "lb_508";
-            this.lb_508.Size = new System.Drawing.Size(25, 13);
-            this.lb_508.TabIndex = 5;
-            this.lb_508.Text = "508";
-            // 
-            // lb_507
-            // 
-            this.lb_507.AutoSize = true;
-            this.lb_507.Location = new System.Drawing.Point(606, 595);
-            this.lb_507.Name = "lb_507";
-            this.lb_507.Size = new System.Drawing.Size(25, 13);
-            this.lb_507.TabIndex = 5;
-            this.lb_507.Text = "507";
-            // 
-            // lb_509
-            // 
-            this.lb_509.AutoSize = true;
-            this.lb_509.Location = new System.Drawing.Point(778, 595);
-            this.lb_509.Name = "lb_509";
-            this.lb_509.Size = new System.Drawing.Size(25, 13);
-            this.lb_509.TabIndex = 5;
-            this.lb_509.Text = "509";
-            // 
-            // lb_510
-            // 
-            this.lb_510.AutoSize = true;
-            this.lb_510.Location = new System.Drawing.Point(862, 595);
-            this.lb_510.Name = "lb_510";
-            this.lb_510.Size = new System.Drawing.Size(25, 13);
-            this.lb_510.TabIndex = 5;
-            this.lb_510.Text = "510";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label51.Location = new System.Drawing.Point(386, 72);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(204, 26);
-            this.label51.TabIndex = 6;
-            this.label51.Text = "Danh Sách Phòng";
-            // 
-            // pt_hinh
-            // 
-            this.pt_hinh.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pt_hinh.Location = new System.Drawing.Point(0, 54);
-            this.pt_hinh.Name = "pt_hinh";
-            this.pt_hinh.Size = new System.Drawing.Size(985, 600);
-            this.pt_hinh.TabIndex = 7;
-            this.pt_hinh.TabStop = false;
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.InfoText;
+            this.label1.Font = new System.Drawing.Font("Lucida Fax", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(344, 66);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(314, 39);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Danh sách phòng";
             // 
             // qlks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(984, 650);
-            this.Controls.Add(this.label51);
-            this.Controls.Add(this.lb_510);
-            this.Controls.Add(this.lb_410);
+            this.ClientSize = new System.Drawing.Size(984, 449);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lb_310);
             this.Controls.Add(this.lb_210);
             this.Controls.Add(this.lb_110);
-            this.Controls.Add(this.lb_509);
-            this.Controls.Add(this.lb_409);
             this.Controls.Add(this.lb_309);
             this.Controls.Add(this.lb_209);
             this.Controls.Add(this.lb_109);
-            this.Controls.Add(this.lb_507);
-            this.Controls.Add(this.lb_407);
             this.Controls.Add(this.lb_307);
             this.Controls.Add(this.lb_207);
             this.Controls.Add(this.lb_107);
-            this.Controls.Add(this.lb_508);
-            this.Controls.Add(this.lb_408);
             this.Controls.Add(this.lb_308);
             this.Controls.Add(this.lb_208);
             this.Controls.Add(this.lb_108);
-            this.Controls.Add(this.lb_506);
-            this.Controls.Add(this.lb_406);
             this.Controls.Add(this.lb_306);
             this.Controls.Add(this.lb_206);
             this.Controls.Add(this.lb_106);
-            this.Controls.Add(this.lb_504);
-            this.Controls.Add(this.lb_404);
             this.Controls.Add(this.lb_304);
             this.Controls.Add(this.lb_204);
             this.Controls.Add(this.lb_104);
-            this.Controls.Add(this.lb_505);
-            this.Controls.Add(this.lb_405);
             this.Controls.Add(this.lb_305);
             this.Controls.Add(this.lb_205);
             this.Controls.Add(this.lb_105);
-            this.Controls.Add(this.lb_503);
-            this.Controls.Add(this.lb_403);
             this.Controls.Add(this.lb_303);
             this.Controls.Add(this.lb_203);
             this.Controls.Add(this.lb_103);
-            this.Controls.Add(this.lb_501);
-            this.Controls.Add(this.lb_401);
             this.Controls.Add(this.lb_301);
             this.Controls.Add(this.lb_201);
             this.Controls.Add(this.lb_101);
-            this.Controls.Add(this.lb_502);
-            this.Controls.Add(this.lb_402);
             this.Controls.Add(this.lb_302);
             this.Controls.Add(this.lb_202);
             this.Controls.Add(this.lb_102);
-            this.Controls.Add(this.bt_507);
-            this.Controls.Add(this.bt_407);
             this.Controls.Add(this.bt_307);
             this.Controls.Add(this.bt_207);
             this.Controls.Add(this.bt_107);
-            this.Controls.Add(this.bt_510);
-            this.Controls.Add(this.bt_410);
             this.Controls.Add(this.bt_310);
             this.Controls.Add(this.bt_210);
             this.Controls.Add(this.bt_110);
-            this.Controls.Add(this.bt_509);
-            this.Controls.Add(this.bt_409);
             this.Controls.Add(this.bt_309);
             this.Controls.Add(this.bt_209);
             this.Controls.Add(this.bt_109);
-            this.Controls.Add(this.bt_508);
-            this.Controls.Add(this.bt_408);
             this.Controls.Add(this.bt_308);
             this.Controls.Add(this.bt_208);
             this.Controls.Add(this.bt_108);
-            this.Controls.Add(this.bt_506);
-            this.Controls.Add(this.bt_406);
             this.Controls.Add(this.bt_306);
             this.Controls.Add(this.bt_206);
             this.Controls.Add(this.bt_106);
-            this.Controls.Add(this.bt_505);
-            this.Controls.Add(this.bt_405);
             this.Controls.Add(this.bt_305);
             this.Controls.Add(this.bt_205);
             this.Controls.Add(this.bt_105);
-            this.Controls.Add(this.bt_504);
-            this.Controls.Add(this.bt_404);
             this.Controls.Add(this.bt_304);
             this.Controls.Add(this.bt_204);
-            this.Controls.Add(this.bt_503);
             this.Controls.Add(this.bt_104);
-            this.Controls.Add(this.bt_403);
             this.Controls.Add(this.bt_303);
-            this.Controls.Add(this.bt_502);
             this.Controls.Add(this.bt_203);
-            this.Controls.Add(this.bt_402);
             this.Controls.Add(this.bt_302);
             this.Controls.Add(this.bt_202);
-            this.Controls.Add(this.bt_501);
             this.Controls.Add(this.bt_103);
-            this.Controls.Add(this.bt_401);
             this.Controls.Add(this.bt_301);
             this.Controls.Add(this.bt_201);
             this.Controls.Add(this.bt_102);
             this.Controls.Add(this.bt_101);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.lbl_ten);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.pt_hinh);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -1470,7 +1018,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lbl_ten;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem hệThốngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem đăngNhậpToolStripMenuItem;
@@ -1500,13 +1047,6 @@
         private System.Windows.Forms.Label lb_102;
         private System.Windows.Forms.Label lb_101;
         private System.Windows.Forms.Label lb_103;
-        private System.Windows.Forms.Label lb_105;
-        private System.Windows.Forms.Label lb_104;
-        private System.Windows.Forms.Label lb_106;
-        private System.Windows.Forms.Label lb_108;
-        private System.Windows.Forms.Label lb_107;
-        private System.Windows.Forms.Label lb_109;
-        private System.Windows.Forms.Label lb_110;
         private System.Windows.Forms.Button bt_201;
         private System.Windows.Forms.Button bt_202;
         private System.Windows.Forms.Button bt_203;
@@ -1520,13 +1060,6 @@
         private System.Windows.Forms.Label lb_202;
         private System.Windows.Forms.Label lb_201;
         private System.Windows.Forms.Label lb_203;
-        private System.Windows.Forms.Label lb_205;
-        private System.Windows.Forms.Label lb_204;
-        private System.Windows.Forms.Label lb_206;
-        private System.Windows.Forms.Label lb_208;
-        private System.Windows.Forms.Label lb_207;
-        private System.Windows.Forms.Label lb_209;
-        private System.Windows.Forms.Label lb_210;
         private System.Windows.Forms.Button bt_301;
         private System.Windows.Forms.Button bt_302;
         private System.Windows.Forms.Button bt_303;
@@ -1540,54 +1073,6 @@
         private System.Windows.Forms.Label lb_302;
         private System.Windows.Forms.Label lb_301;
         private System.Windows.Forms.Label lb_303;
-        private System.Windows.Forms.Label lb_305;
-        private System.Windows.Forms.Label lb_304;
-        private System.Windows.Forms.Label lb_306;
-        private System.Windows.Forms.Label lb_308;
-        private System.Windows.Forms.Label lb_307;
-        private System.Windows.Forms.Label lb_309;
-        private System.Windows.Forms.Label lb_310;
-        private System.Windows.Forms.Button bt_401;
-        private System.Windows.Forms.Button bt_402;
-        private System.Windows.Forms.Button bt_403;
-        private System.Windows.Forms.Button bt_404;
-        private System.Windows.Forms.Button bt_405;
-        private System.Windows.Forms.Button bt_406;
-        private System.Windows.Forms.Button bt_408;
-        private System.Windows.Forms.Button bt_409;
-        private System.Windows.Forms.Button bt_410;
-        private System.Windows.Forms.Button bt_407;
-        private System.Windows.Forms.Label lb_402;
-        private System.Windows.Forms.Label lb_401;
-        private System.Windows.Forms.Label lb_403;
-        private System.Windows.Forms.Label lb_405;
-        private System.Windows.Forms.Label lb_404;
-        private System.Windows.Forms.Label lb_406;
-        private System.Windows.Forms.Label lb_408;
-        private System.Windows.Forms.Label lb_407;
-        private System.Windows.Forms.Label lb_409;
-        private System.Windows.Forms.Label lb_410;
-        private System.Windows.Forms.Button bt_501;
-        private System.Windows.Forms.Button bt_502;
-        private System.Windows.Forms.Button bt_503;
-        private System.Windows.Forms.Button bt_504;
-        private System.Windows.Forms.Button bt_505;
-        private System.Windows.Forms.Button bt_506;
-        private System.Windows.Forms.Button bt_508;
-        private System.Windows.Forms.Button bt_509;
-        private System.Windows.Forms.Button bt_510;
-        private System.Windows.Forms.Button bt_507;
-        private System.Windows.Forms.Label lb_502;
-        private System.Windows.Forms.Label lb_501;
-        private System.Windows.Forms.Label lb_503;
-        private System.Windows.Forms.Label lb_505;
-        private System.Windows.Forms.Label lb_504;
-        private System.Windows.Forms.Label lb_506;
-        private System.Windows.Forms.Label lb_508;
-        private System.Windows.Forms.Label lb_507;
-        private System.Windows.Forms.Label lb_509;
-        private System.Windows.Forms.Label lb_510;
-        private System.Windows.Forms.Label label51;
         private System.Windows.Forms.ToolStripMenuItem nhânViênToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sửaPhòngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tìmKiếmKháchHàngToolStripMenuItem;
@@ -1601,6 +1086,28 @@
         private System.Windows.Forms.ToolStripMenuItem nền5ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nền6ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thêmXóaPhòngToolStripMenuItem;
+        private System.Windows.Forms.Label lb_105;
+        private System.Windows.Forms.Label lb_205;
+        private System.Windows.Forms.Label lb_305;
+        private System.Windows.Forms.Label lb_104;
+        private System.Windows.Forms.Label lb_204;
+        private System.Windows.Forms.Label lb_304;
+        private System.Windows.Forms.Label lb_106;
+        private System.Windows.Forms.Label lb_206;
+        private System.Windows.Forms.Label lb_306;
+        private System.Windows.Forms.Label lb_108;
+        private System.Windows.Forms.Label lb_208;
+        private System.Windows.Forms.Label lb_308;
+        private System.Windows.Forms.Label lb_107;
+        private System.Windows.Forms.Label lb_207;
+        private System.Windows.Forms.Label lb_307;
+        private System.Windows.Forms.Label lb_109;
+        private System.Windows.Forms.Label lb_209;
+        private System.Windows.Forms.Label lb_309;
+        private System.Windows.Forms.Label lb_110;
+        private System.Windows.Forms.Label lb_210;
+        private System.Windows.Forms.Label lb_310;
+        private System.Windows.Forms.Label label1;
     }
 }
 

@@ -54,6 +54,13 @@
       <DependentUpon>capnhat.cs</DependentUpon>
     </Compile>
     <Compile Include="CauLenh.cs" />
+    <Compile Include="checkChangePassword.cs" />
+    <Compile Include="Checkkiemtradangnhap.cs" />
+    <Compile Include="Check_SuaTTNV.cs" />
+    <Compile Include="Check_SuaTTP.cs" />
+    <Compile Include="Check_Tinhtien.cs" />
+    <Compile Include="Check_TTNV.cs" />
+    <Compile Include="Check_Update.cs" />
     <Compile Include="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>

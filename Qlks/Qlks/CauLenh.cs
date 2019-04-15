@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Qlks
 {
-    class CauLenh
+    public class CauLenh
     {
         SqlConnection con = new SqlConnection(@"Data Source=KHANHDOAN-PC\KDLALA;Initial Catalog=Qlks;Integrated Security=True");
         DataTable dt = new DataTable();
@@ -495,5 +495,6 @@ namespace Qlks
             kq = cm.ExecuteReader();
             return kq;
         }
+
     }
 }

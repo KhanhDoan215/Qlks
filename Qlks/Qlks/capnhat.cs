@@ -22,7 +22,7 @@ namespace Qlks
         CauLenh cl = new CauLenh();
         DataTable dt = new DataTable();
         SqlDataReader dr;
-
+        private SqlConnection Connection;
         private void form_load()
         {
             lb_mp.Text = "Phòng Số: " + maphong.ToString();

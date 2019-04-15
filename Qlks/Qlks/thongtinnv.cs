@@ -36,6 +36,9 @@ namespace Qlks
 
         private void bt_them_Click(object sender, EventArgs e)
         {
+            string kt = Check_TTNV.kt_ThemTTNV(txt_ten.Text, txt_diachi.Text, txt_ngaysinh.Text, txt_sdt.Text, txt_taikhoan.Text, txt_matkhau.Text);
+            if (kt == "0")
+
             if (!string.IsNullOrEmpty(txt_ten.Text))
             {
                 if (!string.IsNullOrEmpty(txt_taikhoan.Text))
@@ -47,6 +50,7 @@ namespace Qlks
                         dt = cl.themnv(txt_ten.Text, rd_nam.Text, txt_diachi.Text, txt_ngaysinh.Text, Convert.ToInt32(txt_sdt.Text), txt_taikhoan.Text, txt_matkhau.Text);
                         if (dt.Rows[0]["errcode"].ToString() == "1")
                         {
+
                             MessageBox.Show("Tài Đã Khoản Tồn Tại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                             txt_taikhoan.Focus();
                         }
@@ -76,20 +80,30 @@ namespace Qlks
                 }
                 else
                 {
-                    MessageBox.Show("Nhập Tài Khoản", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    
+                     if (kt == "3")
+                     {
+                         MessageBox.Show("Nhập Tài Khoản", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                     }
                     txt_taikhoan.Focus();
                 }
             }
 
             else
             {
-                MessageBox.Show("Nhập Tên", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+              
+                if (kt == "2")
+                {
+                    MessageBox.Show("Nhập Tên", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
                 txt_ten.Focus();
             }
         }
 
         private void bt_sua_Click(object sender, EventArgs e)
         {
+            string kt = Check_SuaTTNV.kt_SuaTTNV(txt_ten.Text, txt_diachi.Text, txt_ngaysinh.Text, txt_sdt.Text, txt_taikhoan.Text, txt_matkhau.Text);
+            if(kt == "0")
             if (!string.IsNullOrEmpty(txt_ten.Text))
             {
                 if (!string.IsNullOrEmpty(txt_taikhoan.Text))
@@ -130,14 +144,20 @@ namespace Qlks
                 }
                 else
                 {
-                    MessageBox.Show("Nhập Tài Khoản", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    if (kt == "3")
+                    {
+                        MessageBox.Show("Nhập Tài Khoản", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
                     txt_taikhoan.Focus();
                 }
             }
                
             else
             {
-                MessageBox.Show("Nhập Tên", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                if (kt == "2")
+                {
+                    MessageBox.Show("Nhập Tên", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
                 txt_ten.Focus();
             }
         }

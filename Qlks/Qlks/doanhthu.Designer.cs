@@ -94,6 +94,7 @@
             this.dg.Name = "dg";
             this.dg.Size = new System.Drawing.Size(337, 273);
             this.dg.TabIndex = 20;
+            this.dg.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dg_CellContentClick);
             // 
             // Maphong
             // 
